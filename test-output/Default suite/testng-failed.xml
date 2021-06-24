@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="restAssuredTestcases.StarWars_RestAssuredAPI">
+        <methods>
+          <include name="StarWar_RestAssured_details_of_a_planet"/>
+        </methods>
+      </class> <!-- restAssuredTestcases.StarWars_RestAssuredAPI -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
